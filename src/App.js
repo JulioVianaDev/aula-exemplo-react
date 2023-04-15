@@ -15,6 +15,13 @@ function App() {
   const [logado,setLogado] = useState(false);
 
 
+  const Logar = ()=>{
+    setLogado(true);
+  }
+
+  const Deslogar=()=>{
+    setLogado(false);
+  }
   return (
     <div className="App">
       {/* chamando um componente simples */}
