@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import FunctionSimples from './exemplos/components/FunctionSimples';
 import FunctionDupla from './exemplos/components/FunctionDupla';
@@ -12,8 +11,8 @@ function App() {
       {/* chamando a função dupla */}
       <FunctionDupla/>
       {/* chamando o botao 2x e enviando os children como atributos  */}
-      <Botao>Entrar</Botao>
-      <Botao>Sair</Botao>
+      <Botao classe="botao purple">Entrar</Botao>
+      <Botao classe="botao blue">Sair</Botao>
     </div>
   );
 }
