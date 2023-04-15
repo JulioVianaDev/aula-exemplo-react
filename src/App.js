@@ -34,8 +34,8 @@ function App() {
         logado ? <p> Logado </p> : <p>Deslogado</p>
       }
       {/* chamando o botao 2x e enviando os children como atributos  */}
-      <Botao classe="botao purple">Entrar</Botao>
-      <Botao classe="botao blue">Sair</Botao>
+      <Botao tarefa={Logar} classe="botao purple">Entrar</Botao>
+      <Botao tarefa={Deslogar} classe="botao blue">Sair</Botao>
     </div>
   );
 }

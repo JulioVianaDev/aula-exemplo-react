@@ -1,7 +1,7 @@
 import "./Botao.css"
 function Botao(props) {
   return (
-    <button className={props.classe}>
+    <button onClick={props.tarefa} className={props.classe}>
       {/* para poder aparecer o texto é necessário habilitar o props.children */}
       {props.children}
     </button>
